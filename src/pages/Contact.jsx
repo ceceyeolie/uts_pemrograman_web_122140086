@@ -14,7 +14,7 @@ const Contact = () => {
 
         {/* Informasi Kontak */}
         <div className="col-md-6">
-          <h1 className="mb-3 fw-bold text-primary">Hubungi Saya</h1>
+          <h1 className="mb-3 fw-bold text-primary">Contact</h1>
           <p className="text-muted">
           Feel free to reach out to me through the following social media platforms:
           </p>

@@ -14,7 +14,7 @@ const Projects = () => {
 
         {/* Deskripsi */}
         <div className="col-md-6">
-          <h1 className="mb-3 fw-bold text-primary">Proyek</h1>
+          <h1 className="mb-3 fw-bold text-primary">Project</h1>
           <p className="text-muted">
           I have recently started learning and developing my first project using <span className="text-dark fw-semibold">React</span> and <span className="text-dark fw-semibold">Vite</span>. Currently, I am in the exploration phase and eager to continuously enhance my skills in web development.
           </p>

@@ -14,7 +14,7 @@ const About = () => {
 
         {/* Deskripsi */}
         <div className="col-md-6">
-          <h1 className="mb-3 fw-bold text-primary">Tentang Portal Berita</h1>
+          <h1 className="mb-3 fw-bold text-primary">About</h1>
           <p className="text-muted">
             <strong>Portal Berita</strong> is a simple web project designed to provide information, news, 
             and engaging content using modern technologies like  <span className="text-dark fw-semibold">React</span> and <span className="text-dark fw-semibold">Vite</span>.
