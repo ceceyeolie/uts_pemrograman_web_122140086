@@ -2,6 +2,10 @@
 
 🚀 **Portal Berita** adalah aplikasi berbasis web yang menampilkan berita terbaru menggunakan **React** dan **Vite**. Aplikasi ini mengambil data berita dari **Mediastack API** dan memungkinkan pengguna mencari berita berdasarkan kata kunci.  
 
+Proyek ini merupakan portal berita sederhana yang dibangun menggunakan React, React Router, dan Bootstrap (melalui React-Bootstrap) untuk styling. Aplikasi memungkinkan pengguna melihat daftar berita dan detail masing-masing berita melalui navigasi dinamis yang diatur oleh react-router-dom. Pengambilan data dilakukan secara real-time dari API menggunakan fetch di dalam hook useEffect, sementara state dikelola secara lokal dengan useState untuk kebutuhan seperti pencarian dan penyimpanan data berita. Struktur proyek pun dibangun secara modular dengan memisahkan komponen-komponen utama seperti Navigation dan halaman-halaman untuk daftar serta detail berita.
+
+Dalam hal state management, proyek ini memilih pendekatan sederhana menggunakan useState dan useEffect karena kebutuhan data masih terbatas dan hanya digunakan di dalam komponen-komponen tertentu. Pendekatan ini sudah sesuai untuk skala aplikasi saat ini, sehingga belum memerlukan implementasi global state seperti Context API, useReducer, atau Redux Toolkit. 
+
 ### ✨ Fitur Utama  
 - 🔍 Pencarian berita berdasarkan kata kunci  
 - 📰 Menampilkan berita terbaru dalam format kartu  
