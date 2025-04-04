@@ -30,7 +30,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/cici-tri-fadila-as" className="text-dark fw-semibold" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/cici-tri-fadila-as-b06038298/" className="text-dark fw-semibold" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
             </li>
