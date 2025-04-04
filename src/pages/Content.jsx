@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { InputGroup, Form, Button, Card } from "react-bootstrap";
 
 const Content = () => {
-  const [keyword, setKeyword] = useState("google");
+  const [keyword, setKeyword] = useState("indonesia");
   const [resultArticle, setResultArticle] = useState([]);
   const [loading, setLoading] = useState(false);
 
